@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+}
+.StopWatchContainer{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.Timer{
+    font-size: 5rem;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.648);
+    text-align: center;
+}
+.Buttons{
+    display: flex;
+    flex: row;
+    justify-content: center;
+}
+Button{
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.626);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.StopWatch{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.626);
+    background-color: antiquewhite;
+}
+.StartButton{
+    background-color: hsl(124, 100%, 59%);
+}
+.StartButton:hover{
+    background-color: hsl(124, 100%, 39%);
+}
+.ResetButton{
+    background-color: hsl(52, 100%, 59%);
+}
+.ResetButton:hover{
+    background-color: hsl(52, 100%, 39%);
+}
+.StopButton{
+    background-color: hsl(0, 78%, 49%);
+}
+.StopButton:hover{
+    background-color: hsl(0, 78%, 39%);
+}
